@@ -19,7 +19,7 @@
 }
 .borderbab{
     width: auto;
-    height: 5%;
+    height: 8%;
     color: white;
     padding-top: 2px;
     padding-left: 2%;
@@ -48,7 +48,7 @@ h3{
     color: white;
     margin-bottom: 2px;
     border-radius: 5px 5px 5px 5px;
-    height: 40px;
+    height: auto;
     width:240px;
     font-size: 25px;
 }
