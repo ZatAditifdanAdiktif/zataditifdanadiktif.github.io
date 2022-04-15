@@ -20,38 +20,35 @@
       <span class="fas fa-bars"></span>
     </div>
       <nav class="sidebar">
-        <div class="text"><img src="../../gambar/LOGO.png"></div>
+        <div class="text"><img src="../../gambar/favicon.png"></div>
         <ul>
           <li class="beranda"><a href="../../../index.html">Beranda</a></li>
           <li>
-            <a href="#" class="migrasi">Zat Aditif
+            <a href="#" class="migrasi">A. Zat Aditif
               <span class="fas fa-caret-down first"></span>
             </a>
             <ul class="migrasi-tampil">
               <li><a href="../../zat aditif/1.html">Materi</a></li>
-              <li><a href="../../migrasi hewan/Kuis/kuis1.html">Kuis 1</a></li>
+              <li><a href="../zat aditif/Kuis/kuis1.html">Kuis 1</a></li>
             </ul>
           </li>
           
           <li>
-            <a href="#" style=" color: cyan; background: #01709c;" class="kemagnetan">Zat Adiktif
+            <a href="#" style=" color: cyan; background: #01709c;" class="kemagnetan">B. Zat Adiktif
               <span class="fas fa-caret-down second"></span>
             </a>
             <ul class="kemagnetan-tampil">
               <li><a style="  color: cyan;"  href="1.html">Materi</a></li>
-              <!-- <li><a href="../2/1.html">Teori Kemagnetan bumi</a></li>
-              <li><a href="../3/1.html">Induksi magnet dan gaya lorentz</a></li>
-              <li><a href="../3/1.html">Induksi elektromagnetik</a></li> -->
               <li><a href="../Kuis/kuis2.html">Kuis 2</a></li>
             </ul>
           </li>
           <li>
-            <a href="#" class="produk">Upaya Pencegahan Dari Narkoba
+            <a href="#" class="produk">C. Upaya Pencegahan Dari Narkoba
               <span class="fas fa-caret-down tiga"></span>
             </a>
             <ul class="produk-tampil">
-              <li><a href="../../produk teknologi/1.html">Materi</a></li>
-              <li><a href="../../produk teknologi/Kuis/kuis3.html">Kuis 3</a></li>
+              <li><a href="../../upaya pencegahan/1.html">Materi</a></li>
+              <li><a href="../../upaya pencegahan/Kuis/kuis3.html">Kuis 3</a></li>
             </ul>
           </li>
           <li><a href="../../Evaluasi/eva.html">EVALUASI</a></li>
@@ -69,6 +66,13 @@
     <!--class untuk konten-->
     <div class="content">
       <br>
+      <h3><p class="textjudul">Tujuan</p></h3>
+      <div class="canvas">
+        <ul>
+            <li>Peserta didik dapat menjelaskan jenis zat adiktif siswa dapat menyebutkan contoh zat adiktif dengan tepat</li>
+        </ul>
+        
+      </div>
     
       <p><h3> Zat Adiktif </p></h3>
       <div class="canvas">
@@ -139,18 +143,111 @@
         </p>  
        
      </ol>
+     <img src =".." class="gambarmm" width="35%">
+			<br>
+			    
+			    	<div class="pilihan"> 
+			    	<p>1. Benar atau tidak kafein ada di dalam kopi  ? </p>
+			    	<button class="ya" onclick="pertanyaan1(1)">YA</button>    <button class="tidak" onclick="pertanyaan1(0)">TIDAK</button>
+			    	<p id="jawaban1"></p>
+			    
+					
+					<p>2. Benar atau tidak kafein adalah zat adiktif buatan ?</p>
+					<button class="ya" onclick="pertanyaan2(1)">YA</button>  <button class="tidak" onclick="pertanyaan2(0)">TIDAK</button>
+					<p id="jawaban2"></p>
+
+					<p>3. Benar atau tidak zat adiktif dapat meningkatkan detak jantung ?</p>
+					<button class="ya" onclick="pertanyaan3(1)">YA</button> <button class="tidak" onclick="pertanyaan3(0)">TIDAK</button>
+					<p id="jawaban3"></p>
+
+					<p>4. Benar atau tidak Nikotin terdapat di tembakau ?</p>
+					<button class="ya" onclick="pertanyaan4(1)">YA</button> <button class="tidak" onclick="pertanyaan4(0)">TIDAK</button>
+					<p id="jawaban4"></p>
+
+					<p>5. Benar atau tidak orang sulit tidur dapat disembuhkan dengan psikotropika ?</p>
+					<button class="ya" onclick="pertanyaan5(1)">YA</button> <button class="tidak" onclick="pertanyaan5(0)">TIDAK</button>
+					<p id="jawaban5"></p>
+
+
+
+			    	</div>
+
+     <script>
+      function pertanyaan1(pilihan) {
+        if (pilihan==1) {
+          document.getElementById("jawaban1").innerHTML = "Tepat sekali, Kafein adalah zat alami yang terkandung pada kopi";
+          document.getElementById("jawaban1").style.color="green";
+        }
+        else{
+          document.getElementById("jawaban1").innerHTML = "Maaf jawaban anda kurang tepat";
+          document.getElementById("jawaban1").style.color="red";
+        }
+      }
+    </script>
+    
+    <script>
+      function pertanyaan2(pilihan) {
+        if (pilihan==1) {
+          document.getElementById("jawaban2").innerHTML = "Maaf. Jawaban anda kurang tepat" ;
+          document.getElementById("jawaban2").style.color="red" ;
+        }
+        else{
+          document.getElementById("jawaban2").innerHTML = "Tepat sekali, Karena kafein terdapat pada tanaman teh dan kopi sehingga diklasifikasikan sebagai zat adiktif alami" ;
+          document.getElementById("jawaban2").style.color = "green" ;
+        }
+      }
+    </script>
+  
+    <script>
+      function pertanyaan3(pilihan) {
+        if (pilihan==1) {
+          document.getElementById("jawaban3").innerHTML = "Benar sekali, Zat Adiktif dapat menimbulkan stimulan pada tubuh" ;
+          document.getElementById("jawaban3").style.color="green" ;
+        }
+        else{
+          document.getElementById("jawaban3").innerHTML = "Maaf, Jawaban anda belum tepat" ;
+          document.getElementById("jawaban3").style.color = "red" ;
+        }
+      }
+    </script>
+    <script>
+      function pertanyaan4(pilihan) {
+        if (pilihan==1) {
+          document.getElementById("jawaban4").innerHTML = "Benar sekali, Tembakau adalah bahan dasar Nikotin" ;
+          document.getElementById("jawaban4").style.color="green" ;
+        }
+        else{
+          document.getElementById("jawaban4").innerHTML = "Maaf, Jawaban anda belum tepat" ;
+          document.getElementById("jawaban4").style.color= "red" ;
+        }
+      }
+    </script>
+    <script>
+      function pertanyaan5(pilihan) {
+        if (pilihan==1) {
+          document.getElementById("jawaban5").innerHTML = "Benar sekali, dengan menggunakan obat tidur yang menggunakan resep dokter" ;
+          document.getElementById("jawaban5").style.color = "green" ;
+        }
+        else{
+          document.getElementById("jawaban5").innerHTML = "Maaf, Jawaban anda belum tepat" ;
+          document.getElementById("jawaban5").style.color="red";
+        }
+      }
+    </script>
       </div>
      
       <br>
       <br>
     <div class="kesimpulan" id="kesimpulan">
-      <h3> <img src="../../gambar/kesimpulan.png"><p class="textjudul">Kesimpulan</p></h3>
+      <h3><p class="textjudul">Kesimpulan</p></h3>
       <div class="canvas">
         <b>Zat adiktif</b> adalah zat-zat yang apabila dikonsumsi dapat menyebabkan ketergantungan (adiksi) atau ingin menggunakannya secara terus menerus (ketagihan). 
         Zat adiktif alami yang biasa di konsumsi adalah kafein yang ada dalam kopi, dan theine yang ada didalam teh. Dan pernahkah kamu mendengarkan bahwa orang
         yang terbiasa minum kopi, kemudian tidak minum kopi akan merasa pusing ? Gejala itu menunjukkan seseorang mengalami ketergantungan. 
         Zat adiktif dapat dikelompokkan menjadi tiga, yaitu : narkotika, psikotropika dan zat psiko-aktif lainnya.
         <br>
+    
+      
       </div>
     </div>
     <br>
