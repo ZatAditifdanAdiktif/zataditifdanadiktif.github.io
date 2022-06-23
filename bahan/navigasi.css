@@ -47,7 +47,7 @@
  
 }
 .jwbpendek:hover{
-  background-color: rgb(16, 134, 134);
+  background-color: rgb(20, 20, 20);
 }
 .pertanyaan{
   min-height: 20px;
@@ -59,7 +59,7 @@
   border-radius: 5px;
 }
 .pilihan:hover{
-  background-color: rgb(5, 109, 109);
+  background-color: rgb(26, 26, 26);
   color:white;
 }
 .btn{
@@ -89,7 +89,7 @@
   float: left;
   width: 20%;
   height: 100%;
-  background: #007cad;
+  background: #1a1a1a;
   transition: left 0.4s ease;
   position: fixed;
   font-family: poppins,Arial,sans-serif;
@@ -106,7 +106,7 @@
 }
 
 nav ul{
-  background: #007cad;
+  background: #c7850c;
   height: 100%;
   width: 100%;
   list-style: none;
@@ -130,7 +130,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  background: #01709c;
+  background: #1b1b1b;
   color:cyan;
  
 }
@@ -163,18 +163,18 @@ nav ul ul li a{
   padding-left: 40px;
   line-height: 2.5;
   padding-right: 10px;
-  background: #007cad;
+  background: #e49e07;
   
 
 }
 nav ul li.beranda ul li a{
   color: #e6e6e6;
-  background: #007cad;
+  background: #1a1a1a;
   border-left-color: transparent;
 }
 nav ul ul li a:hover{
-  color: cyan!important;
-  background: #01709c!important;
+  color: rgb(37, 37, 37)!important;
+  background: #1f1f1f!important;
 }
 nav ul li a span{
   position: absolute;
@@ -272,7 +272,7 @@ button a{
   border-radius: 10px 10px 10px 10px;
   padding: 10px;
   min-width: 100px;
-  background-color:  #0aa2df; 
+  background-color:  #19191a; 
 }
 .btnvidio:hover{
   background-color:  #000000; 
@@ -282,7 +282,7 @@ button a{
   border-radius: 5px 5px 5px 5px;
   padding: 2px;
   min-width: 100px;
-  background-color:  #0aa2df; 
+  background-color:  #252525; 
 }
 .btnkecil:hover{
   background-color:  #000000; 
@@ -299,7 +299,7 @@ button a{
 }
 
 button:hover{
-  background-color:#007cad;
+  background-color:#2b2b2b;
   color: white;
 
 }
@@ -308,7 +308,7 @@ button:hover{
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background:  #007cad;
+  background:  #d19b05;
 }
 .nav{
 display: none;
@@ -322,7 +322,7 @@ display: none;
 
 @media screen and (max-width: 760px) {
   .btn1{
-    background-color:  #007cad;
+    background-color:  #202020;
     color: white;
    
   }
@@ -361,7 +361,7 @@ display: none;
     padding-right: 10%;
     color: #fafafa;
     font-size: 10pt;
-    background-color: rgb(5, 77, 104);
+    background-color: rgb(0, 0, 0);
   }
   
   .gambarhover:hover{
@@ -373,7 +373,7 @@ display: none;
     width: 250px;
     height: 105%;
     left: -250px;
-    background: #343a40;
+    background: #d39000;
     transition: left 0.4s ease;	
     z-index: 1;	
     overflow: scroll;
@@ -430,7 +430,7 @@ display: none;
     margin: 2px;
     padding: 10px;
     min-width: 100px;
-    background-color:  #0aa2df; 
+    background-color:  #1f1f1f; 
   }
   nav ul li{
     line-height: 40px;
